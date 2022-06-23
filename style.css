@@ -39,7 +39,7 @@ button {
     /*fin de personnalisation du bouton */
   
   
-    form {
+    .form {
     /* Uniquement centrer le formulaire sur la page */
     margin: 200px auto;
     width: 500px;
@@ -48,7 +48,7 @@ button {
     border-radius: 1em;
     padding: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
   }
@@ -60,7 +60,7 @@ button {
   input {
     height: 20px;
     font-size: 19px;
-    width: 40px;
+    width: 150px;
   }
 
   .votreage {

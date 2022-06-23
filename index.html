@@ -8,18 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/my-handling-form-page" method="post">
+    <div class="form">
             <div class="votreage">
                 <label for="age">Votre Age :</label>
-                <input type="number_format" id="age" name="ton_age" maxlength="2" 
-                onkeypress="return event.charCode>=48 && event.charCode<=57" required/>
+                <input type="date" id="age" name="ton_age" maxlength="2" required/>
             </div>
-        
+
             <div class="button">
-                <button onclick="check()">Vérifier</button>
+                <button id="verify" onclick="ageCalculator()">Vérifier</button>
             </div>
-     </form>
-    
+        </div>
+    <p id="result"></p>
      <script src="age.js"></script>
 </body>
-</html>
+</html> 
